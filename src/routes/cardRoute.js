@@ -4,9 +4,9 @@ const { searchAllCard,
         createCard, 
         updateCard, 
         removeCard } = require("../controllers/cardController.js")
-
 const print = require("../middleware/logger.js")
 const { validationExists, validationFields } = require("../middleware/validation.js")
+
 const router = express.Router()
 
 
